@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+logs/
+screenshots/
+reports/
+.wdm/
+.pytest_cache/
