@@ -67,7 +67,7 @@ class AdminPage:
         screenshot_path = os.path.join(screenshot_dir, f"{test_name}_{timestamp}.png")
 
         self.driver.save_screenshot(screenshot_path)
-        print(f"📸 Screenshot saved: {screenshot_path}")
+        print(f"Screenshot saved: {screenshot_path}")
 
         # ================= VALIDATION =================
         found = False
