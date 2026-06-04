@@ -1,5 +1,5 @@
 from pages.login_page import LoginPage
-from config import URL, USERNAME, PASSWORD
+from config.config import URL, USERNAME, PASSWORD
 
 def test_login(setup, request):
     driver = setup

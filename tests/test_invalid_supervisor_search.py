@@ -1,6 +1,6 @@
 from pages.login_page import LoginPage
 from pages.pim_page import PimPage
-from config import URL, USERNAME, PASSWORD
+from config.config import URL, USERNAME, PASSWORD
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC

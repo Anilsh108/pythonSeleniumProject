@@ -1,6 +1,4 @@
-# tests/test_logout.py
-
-from config import BASE_URL, USERNAME, PASSWORD
+from config.config import URL, USERNAME, PASSWORD
 
 from pages.login_page import LoginPage
 from pages.logout_page import LogoutPage
@@ -10,7 +8,7 @@ def test_logout(setup, request):
 
     driver = setup
 
-    driver.get(BASE_URL)
+    driver.get(URL)
 
     test_name = request.node.name
 
