@@ -1,6 +1,6 @@
 from pages.admin_page import AdminPage
 from pages.login_page import LoginPage
-from config.config import URL, USERNAME, PASSWORD
+from config import URL, USERNAME, PASSWORD
 
 
 def test_admin_user_search(setup, request):
